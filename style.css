@@ -1,0 +1,131 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; ;
+}
+h5,h4,h3{
+  margin: 0;
+  padding: 0;
+}
+.row{
+  width: 100%;
+}
+.topnav{
+  width:100%;
+  background-color: lavender;
+  overflow: hidden;
+  clear: both;
+  position: static;
+}
+.topnav a{
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding:  14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Style inputs */
+input[type=text], input[type=number],select,textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.loginForm{
+  width: 25%;
+  margin: 0 auto;
+  
+}
+textarea{
+  resize: none;
+}
+/* Style the submit button */
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.bookForm{
+  display: flex;
+  margin: 0 auto;
+}
+.bookList{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+table{
+
+  padding: 10px;
+
+  border-collapse: collapse;
+}
+td{
+  border-collapse: collapse;
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+thead{
+  border-bottom: 1px solid ;
+}
+table th{
+  padding: 10px;
+}
+
+.bookForm{
+  width:30%;
+  margin-top: 50px;
+}
+.actions a{
+  padding: 2px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+.books td:nth-child(2){
+  text-align: left;
+}
+.actions a:nth-child(1){
+  color: white;
+  background-color: darkturquoise;
+}
+.actions a:nth-child(2){
+  color: white;
+  background-color: darkgreen;
+}
+.actions a:nth-child(3){
+  color: white;
+  background-color: red;
+}
+.showItem{
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0 auto;
+  padding: 50px;
+}
